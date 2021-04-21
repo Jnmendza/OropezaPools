@@ -5,8 +5,9 @@ function TitlePhoto() {
     return (
         <div className="title-photo-container">
             <div className="title-photo-text">
-                <h1>The Gold standard, you deserve it</h1>
-                <h2>Servicio de Oro, te lo mereces</h2>
+                <h1>The <span className="gold">Gold</span> standard, you deserve it</h1>
+                <div className="line"></div>
+                <h2>Servicio de <span className="gold">Oro</span>, te lo mereces</h2>
             </div>
         </div>
     )

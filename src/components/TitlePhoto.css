@@ -15,3 +15,14 @@
     padding: 300px 0px;
     width: 90%;
 }
+
+.gold {
+    color: var(--orange);
+}
+
+.line {
+    margin: auto;
+    height: 5px;
+    width: 75%;
+    border-bottom: 5px solid var(--blue);
+}

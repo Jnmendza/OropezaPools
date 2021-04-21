@@ -4,47 +4,44 @@
     overflow: hidden;
     background: url(../assets/Hero-image.jpg) no-repeat center;
     background-size: cover;
+
 }
 
 .cta {
     background-color:rgba(255,255,255, 0.7);
     width: 300px;
-    height: 400px;
-    margin-left: 95px;
+    height: 70%;
+    margin-left: 20%;
+    padding: 25px;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    line-height: 0.8;
 }
 
-.cta .text-container {
-    width: 90%;
-    margin: auto;
-    padding-top: 50px;
-}
-
-.hero-image p:first-child {
+.cta p:first-child {
     color: var(--aqua);
     font-size: 4rem;
-    margin: auto;
+    margin: 50px auto 0 auto;
 
 }
 
-.hero-image p:nth-child(2) {
+.cta p:nth-child(2) {
     color: var(--orange);
-    font-size: 7rem;
+    font-size: 8.7rem;
 }
 
-.hero-image p:nth-child(3) {
+.cta p:nth-child(3) {
     color: var(--blue);
-    font-size: 2rem;
+    font-size: 2.38rem;
 }
 
-.hero-image p:last-child {
+.cta p:last-child {
     text-align: center;
     /* vertical-align: middle; */
-    /* width: 60%; */
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     margin: 25px auto;
-    padding: 35px;
+    padding: 15px;
     background-color: var(--aqua);
     color: white;
+
 }

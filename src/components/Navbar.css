@@ -1,22 +1,20 @@
-.flex-display {
-    display: flex;
-}
-
-.container {
-    justify-content: space-around;
-    padding: 5px;
-}
-
-.nav-links li{
-    margin: auto 50px;
-    align-items: center;
-}
-
-.social-media-icons {
-    color: var(--aqua);
-    margin: auto 0px;
-    width: 50px;
+.nav-container {
+    padding: 15px;
     justify-content: space-between;
-
 }
 
+.link-container {
+    justify-content: space-evenly;
+    width: 30%;
+    margin: auto 0;
+    color: var(--aqua);
+}
+
+.link-container a {
+    text-decoration: none;
+    color: var(--aqua);
+}
+
+.link-container:hover a{
+    color: var(--blue);
+}
