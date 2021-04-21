@@ -1,0 +1,13 @@
+.services-container {
+    /* background-color: pink; */
+    justify-content: space-evenly;
+}
+
+.card-container {
+    width: 250px;
+}
+
+.title-container {
+    background-color: white;
+    height: 60px;
+}

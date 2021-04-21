@@ -1,0 +1,50 @@
+.hero-image {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(../assets/Hero-image.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.cta {
+    background-color:rgba(255,255,255, 0.7);
+    width: 300px;
+    height: 400px;
+    margin-left: 95px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cta .text-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.hero-image p:first-child {
+    color: var(--aqua);
+    font-size: 4rem;
+    margin: auto;
+
+}
+
+.hero-image p:nth-child(2) {
+    color: var(--orange);
+    font-size: 7rem;
+}
+
+.hero-image p:nth-child(3) {
+    color: var(--blue);
+    font-size: 2rem;
+}
+
+.hero-image p:last-child {
+    text-align: center;
+    /* vertical-align: middle; */
+    /* width: 60%; */
+    font-size: 1.6rem;
+    margin: 25px auto;
+    padding: 35px;
+    background-color: var(--aqua);
+    color: white;
+}

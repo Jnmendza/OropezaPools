@@ -1,0 +1,22 @@
+.flex-display {
+    display: flex;
+}
+
+.container {
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.nav-links li{
+    margin: auto 50px;
+    align-items: center;
+}
+
+.social-media-icons {
+    color: var(--aqua);
+    margin: auto 0px;
+    width: 50px;
+    justify-content: space-between;
+
+}
+
