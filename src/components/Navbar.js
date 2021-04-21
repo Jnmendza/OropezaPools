@@ -8,16 +8,20 @@ import { FaInstagram } from 'react-icons/fa';
 
 function Navbar() {
     return (
-        <nav className="flex-display nav-container">
-            <div>
-                <img src={logo} alt="logo" height="auto" width="120px" />
-            </div>
-            <div className="flex-display link-container">
-                <Link to="/">Home</Link>
-                <Link to="/about-us">About Us</Link>
-                <Link to="/">Services</Link>
-                <FaFacebookF />
-                <FaInstagram />
+        <nav className=" nav-container">
+            <div className="flex-display nav-wrapper">
+
+                <div>
+                    <img src={logo} alt="logo" height="auto" width="120px" />
+                </div>
+
+                <div className="flex-display link-container">
+                    <Link to="/">Home</Link>
+                    <Link to="/about-us">About Us</Link>
+                    <Link to="/">Services</Link>
+                    <FaFacebookF />
+                    <FaInstagram />
+                </div>
             </div>
         </nav>
     )

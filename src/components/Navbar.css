@@ -1,4 +1,9 @@
 .nav-container {
+    width: 90%;
+    margin: auto;
+}
+
+.nav-wrapper {
     padding: 15px;
     justify-content: space-between;
 }
