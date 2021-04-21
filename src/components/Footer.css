@@ -2,9 +2,15 @@
     background-color: var(--aqua);
     height: 300px;
 }
-.contact-info-container p {
+
+.contact-info-container {
+    color: white;
+}
+
+.contact-info-container p a{
     color: white;
     margin: 15px 0;
+    text-decoration: none;
 }
 .contact-info-container img {
     margin-top: 30px;

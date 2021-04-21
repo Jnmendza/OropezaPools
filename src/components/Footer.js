@@ -11,8 +11,8 @@ function Footer() {
             <div className="footer-content-container">
                 <div className="contact-info-container">
                     <img src={whtLogo} alt="Oropeza white logo" height="auto" width="150px" />
-                    <p>Oropezapools@gmails.com</p>
-                    <p>(619) 222-2222</p>
+                    <p><a href="mailto: ">Oropezapools@gmails.com</a></p>
+                    <p>(619) 852-4625</p>
                 </div>
                 <div className="flex-display bottom-info-container">
                     <p>Lorem ipsum copyright jargon</p>
