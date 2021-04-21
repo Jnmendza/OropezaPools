@@ -1,13 +1,40 @@
 .services-container {
     /* background-color: pink; */
     justify-content: space-evenly;
+    padding: 25px;
 }
 
 .card-container {
     width: 250px;
+    box-shadow: 2px 2px 4px #000000;
 }
 
 .title-container {
+    text-align: center;
     background-color: white;
-    height: 60px;
+    padding: 25px;
+    font-family: 'PT Serif', serif;
+    font-size: 1.1rem;
+    color: var(--aqua);
+}
+
+.details-container {
+    height: 145px;
+    /* background-color: pink; */
+    padding: 15px;
+}
+
+.details-container ul li {
+    list-style-type: none;
+}
+
+.modal-btn {
+    padding: 10px 10px;
+    cursor: pointer;
+    color: var(--blue);
+}
+
+.modal-btn:hover {
+    color: white;
+    background-color: var(--aqua);
 }

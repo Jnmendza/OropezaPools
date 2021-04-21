@@ -26,7 +26,7 @@ export const serviceData = [
     },
     {
         id: 3,
-        title: "Repairs and installation",
+        title: "Repairs & Installation",
         image: {cleaning},
         subtitle: "",
         details: [

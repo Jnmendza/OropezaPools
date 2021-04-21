@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react';
 import './Services.css';
 import { serviceData } from "../serviceData";
 import ServiceCard from './ServiceCard.js';
+import Modal from './Modal';
+
 
 function Services() {
     const [services, setServices] = useState([]);
+
 
     const getServices = () => {
         let tempServices = [];
@@ -25,9 +28,11 @@ function Services() {
         <div className="flex-display services-container">
             {services.map(service => {
                 return(
-                    <ServiceCard service={service} key={service.id}/>
-                )
-            })}
+                    <div>
+                        <ServiceCard service={service} key={service.id}/>
+                    </div>
+                    )
+                })}
         </div>
     )
 }

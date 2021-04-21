@@ -15,7 +15,7 @@ function Navbar() {
             <div className="flex-display link-container">
                 <Link to="/">Home</Link>
                 <Link to="/about-us">About Us</Link>
-                <Link to="/">Link3</Link>
+                <Link to="/">Services</Link>
                 <FaFacebookF />
                 <FaInstagram />
             </div>
