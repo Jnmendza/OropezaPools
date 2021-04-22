@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-import logo from '../assets/logo.png';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 
@@ -13,7 +12,7 @@ function Navbar() {
 
                 <div>
                     <Link to="/">
-                        <img src={logo} alt="logo" height="auto" width="120px" />
+                        <img src="/assets/logo.png" alt="logo" height="auto" width="120px" />
                     </Link>
                 </div>
 

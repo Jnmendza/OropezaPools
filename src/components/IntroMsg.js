@@ -1,5 +1,4 @@
 import React from 'react';
-import kids from '../assets/Kids.png';
 import { Link } from 'react-router-dom';
 
 import './IntroMsg.css'
@@ -19,7 +18,7 @@ function IntroMsg() {
                 </div>
 
                 <div className="img-container">
-                    <img className="image2" src={kids} alt="" height="auto" width="550px" />
+                    <img className="image2" src="/assets/Kids.png" alt="kids-playing-in-pool" height="auto" width="550px" />
                 </div>
         </div>
 
