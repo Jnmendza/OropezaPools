@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from './Modal';
-
+import Bounce from 'react-reveal/Bounce';
 
 function ServiceCard({ service }) {
     const {id, title, details} = service
@@ -8,6 +8,7 @@ function ServiceCard({ service }) {
 
     return (
         <div>
+            <Bounce top>
             <div className="card-container">
                 <h1 className="title-container">{title}</h1>
                 <img src={`../assets/photo-${id}.jpeg`} alt="pool" height="auto" width="250px"/>
@@ -25,6 +26,7 @@ function ServiceCard({ service }) {
                 </div>
             </div>
             <Modal service={service} open={open} close={() => setOpen(false)}/>
+            </Bounce>
         </div>
     )
 }

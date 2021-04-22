@@ -45,3 +45,41 @@ export const serviceData = [
             ],
     }
 ];
+
+export const aboutUs = [
+    {
+        id: 1,
+        firstName: "Mario",
+        lastName: "Oropeza",
+        title: "Owner & Founder",
+    },
+    {
+        id: 2,
+        firstName: "Kayla",
+        lastName: "Oropeza",
+        title: "Owner & Founder",
+    }
+];
+
+export const promises = [
+    {
+        id: 1,
+        promiseText: "Show Up",
+        content: "If we can’t make it, we have back up. We’re not alone and neither will you be."
+    },
+    {
+        id: 2,
+        promiseText: "Be Professional",
+        content: "Over 20 years of fortune 500 management experience. We know customer service."
+    },
+    {
+        id: 3,
+        promiseText: "Be Effective",
+        content: "From small to big, we’ll help you achieve your pool goals. If we can’t do it, we’ll help you find someone that can."
+    },
+    {
+        id: 4,
+        promise: "Clear Communication",
+        content: "With over 20 years of customer service experience you’re in the right hands. Email, print, text, or call, we’re communication experts. We’ll always listen and get back to you in a timely manner."
+    },
+]

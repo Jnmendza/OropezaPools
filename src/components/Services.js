@@ -24,7 +24,7 @@ function Services() {
     console.log(services);
 
     return (
-        <div className="flex-display services-container">
+        <div id="services" className="flex-display services-container">
             {services.map(service => {
                 return(
                     <div id="services">

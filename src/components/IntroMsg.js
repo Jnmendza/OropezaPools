@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Jump from 'react-reveal/Jump';
 
 import './IntroMsg.css'
 
@@ -14,7 +15,7 @@ function IntroMsg() {
                     <p> We’ve decided to enter the pool service industry and provide that same energetic, 
                     professional, customer focused experience we provided you in our previous big box locations. 
                     Come be a part of our journey and the new Oropeza pools family.</p>
-                    <Link to="/about-us"><button>About Us</button></Link>
+                    <Jump><Link to="/about-us"><button>About Us</button></Link></Jump>
                 </div>
 
                 <div className="img-container">
