@@ -1,23 +1,31 @@
+
 .title-photo-container {
     position: relative;
-    /* height: 500px; */
+    /* width: 100%;
     overflow: hidden;
     background: url(../assets/title-photo.jpg) no-repeat center;
-    background-size: cover;
+    background-size: cover; */
+}
+
+.title-photo {
+    width: 100%;
 }
 
 .title-photo-text {
     color: white;
-    /* color: var(--orange); */
     font-size: 3.4rem;
     margin: auto;
     text-align: center;
     padding: 300px 0px;
     width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .gold {
-    color: var(--orange);
+    color: var(--gold);
 }
 
 .line {

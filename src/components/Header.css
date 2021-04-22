@@ -1,17 +1,26 @@
-.hero-image {
+.header-image-container {
     position: relative;
-    height: 500px;
-    overflow: hidden;
-    background: url(../assets/Hero-image.jpg) no-repeat center;
-    background-size: cover;
+}
+.header-image {
+    /* position: relative; */
+    /* height: 500px; */
+    width: 100%;
+    /* overflow: hidden; */
+    /* background: url(../assets/Hero-image.jpg) no-repeat center; */
+    /* background-size: cover; */
 
 }
 
 .cta {
+    position: absolute;
+    top: 50px;
+    left: 50px;
     background-color:rgba(255,255,255, 0.7);
+    /* float: left; */
+    /* z-index: 1000; */
     width: 300px;
-    height: 70%;
-    margin-left: 20%;
+    /* height: 70%; */
+    /* margin-left: 20%; */
     padding: 25px;
     text-transform: uppercase;
     font-family: 'Secular One', sans-serif;
