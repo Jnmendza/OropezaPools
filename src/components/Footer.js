@@ -15,7 +15,7 @@ function Footer() {
                     <p>(619) 852-4625</p>
                 </div>
                 <div className="flex-display bottom-info-container">
-                    <p>Lorem ipsum copyright jargon</p>
+                    <p>Copyright © 2021 Oropeza Pools</p>
                     <div className="social-media-icons-container">
                         <FaFacebookF />
                         <FaInstagram />

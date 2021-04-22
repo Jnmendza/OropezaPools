@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Services.css';
-import { serviceData } from "../serviceData";
+import { serviceData } from "./serviceData";
 import ServiceCard from './ServiceCard.js';
-import Modal from './Modal';
 
 
 function Services() {
@@ -28,7 +27,7 @@ function Services() {
         <div className="flex-display services-container">
             {services.map(service => {
                 return(
-                    <div>
+                    <div id="services">
                         <ServiceCard service={service} key={service.id}/>
                     </div>
                     )

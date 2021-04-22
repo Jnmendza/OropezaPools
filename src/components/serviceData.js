@@ -1,18 +1,17 @@
-import cleaning from './assets/cleaning.jpg';
-
+// import cleaning from './assets/cleaning.jpeg';
 
 export const serviceData = [
     {
         id: 1,
         title: "Service Area",
-        image: {cleaning},
+        image: '../assets/photo-1.jpeg',
         subtitle: "",
-        details: [],
+        details: ["Bonita", "Imperial Beach", "Chula Vista", "Spring Valley", "National City"],
     },
     {
         id: 2,
         title: "Pool Cleaning",
-        image: {cleaning},
+        image: '../assets/photo-2.jpeg',
         subtitle: "Count on us to keep your pool ready for action",
         details: [
             "Perform weekly pool services on the same day each week - Net pool surfaces", 
@@ -27,7 +26,7 @@ export const serviceData = [
     {
         id: 3,
         title: "Repairs & Installation",
-        image: {cleaning},
+        image: '../assets/photo-3.jpeg',
         subtitle: "",
         details: [
             "Troubleshoot equipment issues", 

@@ -16,6 +16,15 @@
     margin-bottom: 25px;
 }
 
+.msg-container button {
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+}
+
 .img-container {
     padding: 25px;
 }

@@ -16,10 +16,14 @@
 }
 
 .link-container a {
+    cursor: pointer!important;
     text-decoration: none;
     color: var(--aqua);
 }
 
-.link-container:hover a{
+.link-container a:hover{
+    cursor: pointer!important;
     color: var(--blue);
+    font-weight: bold;
+
 }

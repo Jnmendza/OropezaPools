@@ -12,15 +12,17 @@ function Navbar() {
             <div className="flex-display nav-wrapper">
 
                 <div>
-                    <img src={logo} alt="logo" height="auto" width="120px" />
+                    <Link to="/">
+                        <img src={logo} alt="logo" height="auto" width="120px" />
+                    </Link>
                 </div>
 
                 <div className="flex-display link-container">
                     <Link to="/">Home</Link>
                     <Link to="/about-us">About Us</Link>
-                    <Link to="/">Services</Link>
-                    <FaFacebookF />
-                    <FaInstagram />
+                    <Link to="/#services">Services</Link>
+                    <Link to="/"><FaFacebookF /> </Link>
+                    <Link to="/"><FaInstagram /> </Link>
                 </div>
             </div>
         </nav>

@@ -1,23 +1,34 @@
 import React from 'react';
 import './Modal.css';
+import logo from '../assets/whtLogo.svg'
 
-export const Modal = ({ show, close }) => {
+export const Modal = ({ open, close, service }) => {
+    const {id, title, image, subtitle, details} = service
+    if(!open) return null;
     return (
-        <div className="modal-container" style={{ opacity: show ? '1' : '0' }}>
+        <div>
+        <div className="modal-overlay"/>
+        <div className="modal-container" style={{ opacity: open ? '1' : '0' }}>
             <div className="modal-header">
-                <p>Welcome to the modal</p>
-                <span className="close-modal-btn" >X</span>
+                <img src={logo} alt="oropeza-logo" height="auto" width="150px" />
+                <h1>{title}</h1>
             </div>
             <div className="modal-content">
                 <div className="modal-body">
-                    <h4>Modal</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicng elit. Voluptatibus, placeat aliquam? Nostrum vero
-                    fugiat rem, itaque molestias ipsa quae facilis.</p>
+                    <img src={`../assets/photo-${id}.jpeg`} alt="pool" height="auto" width="600px"/>
+                    <ul>
+                    {details.map(detail => {
+                        return(
+                            <li>{detail}</li>
+                            )
+                        })}
+                    </ul>
                 </div>
-                <div>
+                
                     <button className="btn-cancel" onClick={close}>Close</button>
-                </div>
+                
             </div>
+        </div>
         </div>
     )
 }

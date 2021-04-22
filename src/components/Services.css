@@ -19,13 +19,26 @@
 }
 
 .details-container {
-    height: 145px;
-    /* background-color: pink; */
+    height: 250px;
     padding: 15px;
 }
 
-.details-container ul li {
+.details-container ul {
     list-style-type: none;
+    list-style-position: outside;
+    /* line-height: 1.8; */
+    /* padding-left: 0; */
+}
+
+.details-container ul li::before {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
+    content: "\2022";
+    color: var(--aqua);
+    display: inline-block;
+
 }
 
 .modal-btn {
