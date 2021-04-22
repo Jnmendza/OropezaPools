@@ -7,8 +7,8 @@
 
 .cta {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 25%;
+    left: 5%;
     background-color:rgba(255,255,255, 0.7);
     width: 720px;
     padding: 25px;
@@ -41,3 +41,66 @@
     background-color: var(--aqua);
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .header-image-container {
+        position: relative;
+    }
+    .header-image {
+        width: 100%;
+    }
+    .cta {
+        position: absolute;
+        background-color:rgba(255,255,255, 0.7);
+        width: 75%;
+    }
+
+    .cta p:first-child {
+        font-size: 2rem;
+    }
+    
+    .cta p:nth-child(2) {
+        font-size: 4.7rem;
+    }
+    
+    .cta p:nth-child(3) {
+        font-size: 1.38rem;
+    }
+    
+    .cta p:last-child {
+        font-size: 1.4rem;
+    }
+
+    .O-logo {
+        height: auto;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cta {
+        width: 70%;
+    }
+
+    .cta p:first-child {
+        font-size: 2rem;
+    }
+    
+    .cta p:nth-child(2) {
+        font-size: 5.7rem;
+    }
+    
+    .cta p:nth-child(3) {
+        font-size: 1.55rem;
+    }
+    
+    .cta p:last-child {
+        font-size: 1.3rem;
+    }
+
+    .O-logo {
+        height: auto;
+        width: 150px;
+    }
+}
+

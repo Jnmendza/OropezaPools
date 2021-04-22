@@ -10,7 +10,7 @@
 
 .link-container {
     justify-content: space-evenly;
-    width: 30%;
+    width: 60%;
     margin: auto 0;
     color: var(--aqua);
 }

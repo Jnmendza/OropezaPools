@@ -20,8 +20,8 @@ function Navbar() {
                     <Link to="/">Home</Link>
                     <Link to="/about-us">About Us</Link>
                     <Link to="/#services">Services</Link>
-                    <Link to="/"><FaFacebookF /> </Link>
-                    <Link to="/"><FaInstagram /> </Link>
+                        <Link to="/"><FaFacebookF /> </Link>
+                        <Link to="/"><FaInstagram /> </Link>
                 </div>
             </div>
         </nav>

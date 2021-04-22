@@ -4,7 +4,7 @@
 
 .msg-container {
     margin: auto;
-    padding: 25px;
+    /* padding: 25px; */
     height: 500px;
     font-size: 1.3rem;
 }
@@ -27,4 +27,23 @@
 
 .img-container {
     padding: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .image2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .image2 {
+        height: auto;
+        width: 225px;
+    }
 }
