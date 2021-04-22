@@ -1,16 +1,16 @@
 import React from 'react';
 import './Modal.css';
-import logo from '../assets/whtLogo.svg'
+// import logo from '../assets/whtLogo.svg';
 
 export const Modal = ({ open, close, service }) => {
-    const {id, title, image, subtitle, details} = service
+    const {id, title, details} = service
     if(!open) return null;
     return (
         <div>
         <div className="modal-overlay"/>
         <div className="modal-container" style={{ opacity: open ? '1' : '0' }}>
             <div className="modal-header">
-                <img src={logo} alt="oropeza-logo" height="auto" width="150px" />
+                <img src="/assets/whtLogo.svg" alt="oropeza-logo" height="auto" width="150px" />
                 <h1>{title}</h1>
             </div>
             <div className="modal-content">

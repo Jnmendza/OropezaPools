@@ -1,5 +1,4 @@
 import React from 'react';
-import whtLogo from '../assets/whtLogo.svg';
 import './Footer.css';
 
 import { FaFacebookF } from 'react-icons/fa';
@@ -10,7 +9,7 @@ function Footer() {
         <div className="footer-container">
             <div className="footer-content-container">
                 <div className="contact-info-container">
-                    <img src={whtLogo} alt="Oropeza white logo" height="auto" width="150px" />
+                    <img src="/assets/whtLogo.svg" alt="Oropeza-logo" height="auto" width="150px" />
                     <p><a href="mailto: ">Oropezapools@gmails.com</a></p>
                     <p>(619) 852-4625</p>
                 </div>

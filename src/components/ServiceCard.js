@@ -3,7 +3,7 @@ import Modal from './Modal';
 
 
 function ServiceCard({ service }) {
-    const {id, title, image, subtitle, details} = service
+    const {id, title, details} = service
     const [open, setOpen] = useState(false)
 
     return (
