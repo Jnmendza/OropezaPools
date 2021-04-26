@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-container">
             <div className="footer-content-container">
                 <div className="contact-info-container">
-                    <img src="/assets/whtLogo.svg" alt="Oropeza-logo" height="auto" width="150px" />
+                    <img src="/assets/white-primary-logo.svg" alt="Oropeza-logo" height="auto" width="150px" />
                     <p><a href="mailto: ">Oropezapools@gmails.com</a></p>
                     <p>(619) 852-4625</p>
                 </div>

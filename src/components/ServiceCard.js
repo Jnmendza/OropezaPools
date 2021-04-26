@@ -4,26 +4,26 @@ import Bounce from 'react-reveal/Bounce';
 
 function ServiceCard({ service }) {
     const {id, title, details} = service
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
+    
 
     return (
-        <div>
+        <div >
             <Bounce top>
             <div className="card-container">
-                <h1 className="title-container">{title}</h1>
-                <img src={`../assets/photo-${id}.jpeg`} alt="pool" height="auto" width="250px"/>
-                <div className="details-container">
-                    <ul>
-                    {details.slice(0,5).map(detail => {
-                        return(
-                            <li>{detail}</li>
-                            )
-                        })}
+                <div className="card-head">
+                    <img src={`/assets/photo-${id}.jpeg`} alt="logo" className="author-image" />
+                </div>
+                <div className="card-body">
+                    <h2 className="card-headline">{title}</h2>
+                    <ul className="card-text">
+                        {details.slice(0,5).map(detail => <li>{detail}</li>)}
                     </ul>
                 </div>
-                <div className="modal-btn" onClick={() => setOpen(true)}>
-                        Read more...
+                <div className="card-foot" onClick={() => setOpen(!open)}>
+                    <span className="card-link">Read More</span>
                 </div>
+                <div className="card-border"></div>
             </div>
             <Modal service={service} open={open} close={() => setOpen(false)}/>
             </Bounce>

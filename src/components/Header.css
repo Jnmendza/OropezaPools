@@ -2,105 +2,61 @@
     position: relative;
 }
 .header-image {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .cta {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 5%;
     background-color:rgba(255,255,255, 0.7);
-    width: 720px;
     padding: 25px;
     text-transform: uppercase;
     font-family: 'Secular One', sans-serif;
     line-height: 0.8;
 }
 
+.header-text-wrapper {
+    min-width: 325px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 .cta p:first-child {
     color: var(--aqua);
-    font-size: 4rem;
-    margin: 50px auto 0 auto;
+    font-size: 2.8rem;
 }
 
 .cta p:nth-child(2) {
     color: var(--orange);
-    font-size: 8.7rem;
-}
-
-.cta p:nth-child(3) {
-    color: var(--blue);
-    font-size: 2.38rem;
+    font-size: 2.8rem;
+    margin: 15px 0;
 }
 
 .cta p:last-child {
     text-align: center;
     font-size: 2.4rem;
-    margin: 25px auto;
     padding: 15px;
     background-color: var(--aqua);
     color: white;
 }
 
 @media only screen and (max-width: 600px) {
-    .header-image-container {
-        position: relative;
-    }
-    .header-image {
-        width: 100%;
-    }
-    .cta {
-        position: absolute;
-        background-color:rgba(255,255,255, 0.7);
-        width: 75%;
-    }
 
-    .cta p:first-child {
-        font-size: 2rem;
-    }
-    
-    .cta p:nth-child(2) {
-        font-size: 4.7rem;
-    }
-    
-    .cta p:nth-child(3) {
-        font-size: 1.38rem;
-    }
-    
-    .cta p:last-child {
-        font-size: 1.4rem;
-    }
-
-    .O-logo {
-        height: auto;
-        width: 150px;
-    }
 }
 
 @media only screen and (max-width: 768px) {
-    .cta {
-        width: 70%;
-    }
+.cta {
 
-    .cta p:first-child {
-        font-size: 2rem;
-    }
+}
+.header-image-container {
     
-    .cta p:nth-child(2) {
-        font-size: 5.7rem;
-    }
+}
+.header-image {
     
-    .cta p:nth-child(3) {
-        font-size: 1.55rem;
-    }
-    
-    .cta p:last-child {
-        font-size: 1.3rem;
-    }
+}
 
-    .O-logo {
-        height: auto;
-        width: 150px;
-    }
 }
 

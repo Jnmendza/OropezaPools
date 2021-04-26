@@ -5,7 +5,7 @@
 }
 
 .card-container {
-    width: 250px;
+    width: 300px;
     box-shadow: 2px 2px 4px #000000;
 }
 
@@ -14,12 +14,12 @@
     background-color: white;
     padding: 25px;
     font-family: 'PT Serif', serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: var(--aqua);
 }
 
 .details-container {
-    height: 250px;
+    height: 125px;
     padding: 15px;
 }
 
@@ -50,6 +50,41 @@
 .modal-btn:hover {
     color: white;
     background-color: var(--aqua);
+}
+
+.card-head img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-text li{
+    list-style-type: none;
+    margin:6px 0 0 15px;
+}
+
+.card-foot{ 
+    padding: 15px;
+    border-top: 1px solid var(--orange);
+}
+
+
+
+.card-foot:hover {
+    background-color: var(--aqua);
+    color: white;
+    cursor: pointer;
+    border-top: 1px solid var(--aqua);
+}
+
+.card-headline {
+    font-size: 1.4rem;
+    color: var(--orange);
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -86,7 +121,6 @@
 
 @media only screen and (max-width: 992px) {
     .services-container {
-        /* flex-direction: column; */
         flex-wrap: wrap;
     }
 
@@ -99,3 +133,4 @@
         margin: 25px 15px;
     }
 }
+

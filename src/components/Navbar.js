@@ -16,7 +16,7 @@ function Navbar() {
                 
                 <div>
                     <Link to="/">
-                        <img src="/assets/logo.png" alt="logo" height="auto" width="120px" />
+                        <img src="/assets/Oropeza-primary-logo.svg" alt="logo" height="auto" width="175px" />
                     </Link>
                 </div>
                 {location.pathname === '/about-us' ? (

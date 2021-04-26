@@ -9,12 +9,16 @@ function IntroMsg() {
         <div className="flex-display intro-container">
                 <div className="msg-container">
                     <h1>Hello!</h1>
-                    <p>We are the Oropeza family. We come with over 20 years of successful, 
-                    store manager experience from some of your favorite retailers. </p>
+                    <p>We are the Oropeza family, two businesses professionals with a proven track record of 
+                    excellence. We’ve decided to enter the pool service industry and provide you with the same 
+                    energetic, professional, customer focused experience we have delivered in our previous locations.</p>
                     <br />
-                    <p> We’ve decided to enter the pool service industry and provide that same energetic, 
-                    professional, customer focused experience we provided you in our previous big box locations. 
-                    Come be a part of our journey and the new Oropeza pools family.</p>
+                    <p> We come with over 20 years of successful store manager experience from multiple sectors of 
+                    retail. We are fluent in English and Spanish with excellent communication skills to easily interact 
+                    with our current and future members. We have completed comprehensive training, are CPO Certified, 
+                    licensed, insured and ready to go! Come be a part of our journey and the new Oropeza pools family. 
+
+                    </p>
                     <Jump><Link to="/about-us"><button>About Us</button></Link></Jump>
                 </div>
 

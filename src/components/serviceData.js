@@ -14,13 +14,13 @@ export const serviceData = [
         image: '../assets/photo-2.jpeg',
         subtitle: "Count on us to keep your pool ready for action",
         details: [
-            "Perform weekly pool services on the same day each week - Net pool surfaces", 
-            "Vacuum pool and spa as needed", 
+            "Backwash DE filters as needed",
+            "Inspect equipment", 
             "Brush walls, steps, and tile line", 
+            "Vacuum pool and spa as needed", 
             "Empty all baskets of debris", 
             "Test water chemistry and adjust to balance all chemicals", 
-            "Inspect equipment", 
-            "Backwash DE filters as needed"
+            "Perform weekly pool services on the same day each week - Net pool surfaces", 
         ]
     },
     {
@@ -52,12 +52,14 @@ export const aboutUs = [
         firstName: "Mario",
         lastName: "Oropeza",
         title: "Owner & Founder",
+        link: "https://www.linkedin.com/in/mario-oropeza-a6623395/",
     },
     {
         id: 2,
         firstName: "Kayla",
         lastName: "Oropeza",
         title: "Owner & Founder",
+        link: "https://www.linkedin.com/in/kayla-miller-070267161/",
     }
 ];
 
@@ -79,7 +81,7 @@ export const promises = [
     },
     {
         id: 4,
-        promise: "Clear Communication",
+        promiseText: "Clear Communication",
         content: "With over 20 years of customer service experience you’re in the right hands. Email, print, text, or call, we’re communication experts. We’ll always listen and get back to you in a timely manner."
     },
 ]
