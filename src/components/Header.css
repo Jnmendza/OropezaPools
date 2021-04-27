@@ -43,7 +43,43 @@
     color: white;
 }
 
+.header-text-wrapper {
+    margin: 0 35px;
+}
+
 @media only screen and (max-width: 600px) {
+.O-logo {
+    width: 150px;
+}
+.cta {
+    width: 80%;
+    padding: 15px;
+}
+.header-text-wrapper {
+    margin: 0px 0px;
+    width: 60%;
+}
+
+.cta p:first-child {
+    color: var(--aqua);
+    font-size: 1.8rem;
+}
+
+.cta p:nth-child(2) {
+    color: var(--orange);
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+
+.cta p:last-child {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1px 1px;
+    background-color: var(--aqua);
+    color: white;
+    width: 50%;
+    margin: auto;
+}
 
 }
 

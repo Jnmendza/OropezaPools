@@ -1,12 +1,23 @@
 import React, { useState } from 'react';
-import Modal from './Modal';
+import { Modal } from 'react-responsive-modal';
+import 'react-responsive-modal/styles.css';
+import './Services.css';
+
 import Bounce from 'react-reveal/Bounce';
+import {GrClose} from 'react-icons/gr';
+import { IoCloseCircleSharp } from 'react-icons/io5';
 
 function ServiceCard({ service }) {
     const {id, title, details} = service
     const [open, setOpen] = useState(false);
-    
 
+    const onOpenModal = () => setOpen(true);
+    const onCloseModal = () => setOpen(false);
+
+    const closeIcon = (
+        <div className="close-modal-icon">x</div>
+      );
+    
     return (
         <div >
             <Bounce top>
@@ -20,12 +31,22 @@ function ServiceCard({ service }) {
                         {details.slice(0,5).map(detail => <li>{detail}</li>)}
                     </ul>
                 </div>
-                <div className="card-foot" onClick={() => setOpen(!open)}>
+                <div className="card-foot" onClick={onOpenModal}>
                     <span className="card-link">Read More</span>
                 </div>
                 <div className="card-border"></div>
             </div>
-            <Modal service={service} open={open} close={() => setOpen(false)}/>
+
+        {/* MODAL JSX  ---------------> */}
+                <div className="modal-card-container">
+                    <Modal open={open} onClose={onCloseModal} closeIcon={closeIcon} closeOnEsc center>
+                        <h2 className="modal-title">{title}</h2>
+                        <img src={`/assets/photo-${id}.jpeg`} alt="" height="auto" width="100%" />
+                        <ul>
+                            {details.map(detail => <li className="list-items">{detail}</li>)}
+                        </ul>
+                    </Modal>
+                </div>
             </Bounce>
         </div>
     )
