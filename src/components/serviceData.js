@@ -6,7 +6,8 @@ export const serviceData = [
         title: "Service Area",
         image: '../assets/photo-1.jpeg',
         subtitle: "",
-        details: ["Bonita", "Imperial Beach", "Chula Vista", "Spring Valley", "National City"],
+        details: ["Bonita", "Imperial Beach", "Chula Vista", "Spring Valley", "National City", "San Ysidro"],
+        smallPrint: "* please call for repairs and installation. We will travel outside our service area."
     },
     {
         id: 2,

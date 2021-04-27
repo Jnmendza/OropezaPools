@@ -4,8 +4,6 @@ import 'react-responsive-modal/styles.css';
 import './Services.css';
 
 import Bounce from 'react-reveal/Bounce';
-import {GrClose} from 'react-icons/gr';
-import { IoCloseCircleSharp } from 'react-icons/io5';
 
 function ServiceCard({ service }) {
     const {id, title, details} = service
@@ -21,6 +19,7 @@ function ServiceCard({ service }) {
     return (
         <div >
             <Bounce top>
+            
             <div className="card-container">
                 <div className="card-head">
                     <img src={`/assets/photo-${id}.jpeg`} alt="logo" className="author-image" />
@@ -28,7 +27,9 @@ function ServiceCard({ service }) {
                 <div className="card-body">
                     <h2 className="card-headline">{title}</h2>
                     <ul className="card-text">
-                        {details.slice(0,5).map(detail => <li>{detail}</li>)}
+                        {id===1 ? (details.slice(0,6).map(detail => <li>{detail}</li>)) : (
+                            details.slice(0,5).map(detail => <li>{detail}</li>)
+                        )}
                     </ul>
                 </div>
                 <div className="card-foot" onClick={onOpenModal}>

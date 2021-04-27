@@ -59,6 +59,7 @@
 
 .card-body {
     padding: 15px;
+    height: 240px;
 }
 
 .card-text li{
@@ -80,10 +81,19 @@
     border-top: 1px solid var(--aqua);
 }
 
-.card-headline {
+/* .card-headline {
     font-size: 1.4rem;
     color: var(--orange);
     text-align: center;
+    margin-bottom: 15px;
+} */
+
+.card-headline {
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    background-color: var(--orange);
+    padding: 5px;
     margin-bottom: 15px;
 }
 
