@@ -10,8 +10,8 @@ function Footer() {
             <div className="footer-content-container">
                 <div className="contact-info-container">
                     <img src="/assets/white-primary-logo.svg" alt="Oropeza-logo" height="auto" width="150px" />
-                    <p><a href="mailto: ">Oropezapools@gmails.com</a></p>
-                    <p>(619) 828-3301</p>
+                    <p><a href="mailto: oropezapools@gmail.com ">Oropezapools@gmail.com</a></p>
+                    <p><a href="tel:619-828-3301">(619) 828-3301</a></p>
                     <p>License #B2021004144</p>
                 </div>
                 <div className="flex-display bottom-info-container">
