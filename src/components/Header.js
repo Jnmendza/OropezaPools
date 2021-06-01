@@ -13,7 +13,7 @@ function Header() {
                         <div className="flex-display header-text-wrapper">
                             <p>Get your free</p>
                             <p>Quote Today</p>
-                            <p>(619) 852-4625</p>
+                            <p><a href="tel:619-828-3301">619-828-3301</a></p>
                         </div>
                     </div>
                 </Bounce>

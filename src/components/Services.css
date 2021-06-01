@@ -52,6 +52,10 @@
     background-color: var(--aqua);
 }
 
+.modal-small-print {
+    margin: 15px;
+}
+
 .card-head img {
     width: 100%;
     height: auto;

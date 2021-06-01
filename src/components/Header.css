@@ -24,6 +24,11 @@
     text-align: center;
 }
 
+.header-text-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
 .cta p:first-child {
     color: var(--aqua);
     font-size: 2.8rem;

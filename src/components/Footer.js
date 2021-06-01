@@ -11,7 +11,8 @@ function Footer() {
                 <div className="contact-info-container">
                     <img src="/assets/white-primary-logo.svg" alt="Oropeza-logo" height="auto" width="150px" />
                     <p><a href="mailto: ">Oropezapools@gmails.com</a></p>
-                    <p>(619) 852-4625</p>
+                    <p>(619) 828-3301</p>
+                    <p>License #B2021004144</p>
                 </div>
                 <div className="flex-display bottom-info-container">
                     <p>Copyright © 2021 Oropeza Pools</p>

@@ -6,7 +6,7 @@ import './Services.css';
 import Bounce from 'react-reveal/Bounce';
 
 function ServiceCard({ service }) {
-    const {id, title, details} = service
+    const {id, title, details, smallPrint} = service
     const [open, setOpen] = useState(false);
 
     const onOpenModal = () => setOpen(true);
@@ -15,7 +15,7 @@ function ServiceCard({ service }) {
     const closeIcon = (
         <div className="close-modal-icon">x</div>
       );
-    
+
     return (
         <div >
             <Bounce top>
@@ -25,7 +25,7 @@ function ServiceCard({ service }) {
                     <img src={`/assets/photo-${id}.jpeg`} alt="logo" className="author-image" />
                 </div>
                 <div className="card-body">
-                    <h2 className="card-headline">{title}</h2>
+                    <h2 className="card-headline" id="card-headline">{title}</h2>
                     <ul className="card-text">
                         {id===1 ? (details.slice(0,6).map(detail => <li>{detail}</li>)) : (
                             details.slice(0,5).map(detail => <li>{detail}</li>)
@@ -46,6 +46,7 @@ function ServiceCard({ service }) {
                         <ul>
                             {details.map(detail => <li className="list-items">{detail}</li>)}
                         </ul>
+                        {id===1 ? <p className="modal-small-print">{smallPrint}</p> : null}
                     </Modal>
                 </div>
             </Bounce>
