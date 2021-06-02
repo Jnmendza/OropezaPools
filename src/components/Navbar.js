@@ -3,8 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import { FaFacebookF } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
 import { VscChromeClose } from 'react-icons/vsc';
 import { ReactComponent as Logo } from "../Oropeza-primary-logo.svg";
