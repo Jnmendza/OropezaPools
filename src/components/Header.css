@@ -1,103 +1,137 @@
 .header-image-container {
-    position: relative;
+    /* position: relative; */
+    overflow: hidden;
+    background-image: url('../Hero-image.jpg');
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
-.header-image {
-    max-width: 100%;
+
+.O-logo {
+    width: 250px;
     height: auto;
 }
 
-.cta {
+.title-holder {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
     position: absolute;
-    top: 20%;
-    left: 5%;
-    background-color:rgba(255,255,255, 0.7);
-    padding: 25px;
+    /* margin: 0 auto; */
+    top: 250px;
+    /* width: 100%; */
+}
+
+.title-holder-text {
+    margin: auto 0;
+    text-align: center;
+    padding: 15px;
     text-transform: uppercase;
-    font-family: 'Secular One', sans-serif;
-    line-height: 0.8;
+    font-family: "Secular One",sans-serif;
+    font-size: 2.8rem;
 }
 
-.header-text-wrapper {
-    min-width: 325px;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.header-text-wrapper a {
-    text-decoration: none;
-    color: white;
-}
-
-.cta p:first-child {
+.title-holder-text p:first-child {
     color: var(--aqua);
-    font-size: 2.8rem;
 }
 
-.cta p:nth-child(2) {
+.title-holder-text p:nth-child(2) {
     color: var(--orange);
-    font-size: 2.8rem;
-    margin: 15px 0;
+    font-weight: bold;
 }
 
-.cta p:last-child {
+.title-holder-text p:last-child {
     text-align: center;
-    font-size: 2.4rem;
     padding: 15px;
     background-color: var(--aqua);
     color: white;
 }
 
-.header-text-wrapper {
-    margin: 0 35px;
-}
-
-@media only screen and (max-width: 600px) {
-.O-logo {
-    width: 150px;
-}
-.cta {
-    width: 80%;
-    padding: 15px;
-}
-.header-text-wrapper {
-    margin: 0px 0px;
-    width: 60%;
-}
-
-.cta p:first-child {
-    color: var(--aqua);
-    font-size: 1.8rem;
-}
-
-.cta p:nth-child(2) {
-    color: var(--orange);
-    font-size: 1.8rem;
-    margin: 15px 0;
-}
-
-.cta p:last-child {
-    text-align: center;
-    font-size: 1.4rem;
-    padding: 1px 1px;
-    background-color: var(--aqua);
-    color: white;
-    width: 50%;
-    margin: auto;
-}
+@media screen and (max-width: 900px) {
 
 }
 
-@media only screen and (max-width: 768px) {
-.cta {
+@media screen and (max-width: 700px) {
+    .O-logo{
+        width: 150px;
+        height: auto;
+    }
+    .title-holder {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 15px;
+        position: absolute;
+        /* bottom: 250px; */
+        margin: 0 auto;
+        /* width: 100%; */
+    }
 
-}
-.header-image-container {
+    .title-holder-text {
+        margin: auto 0;
+        text-align: center;
+        padding: 15px;
+        text-transform: uppercase;
+        font-family: "Secular One",sans-serif;
+    }
     
+    .title-holder-text p:first-child {
+        color: var(--aqua);
+        font-size: 5.8vw;
+    }
+
+    .title-holder-text p:nth-child(2) {
+        color: var(--orange);
+        font-weight: bold;
+        font-size: 5.8vw;
+    }
+
+    .title-holder-text p:last-child {
+        text-align: center;
+        font-size: 5.8vw;
+        padding: 15px;
+        background-color: var(--aqua);
+        color: white;
+    }
 }
-.header-image {
+
+@media screen and (max-width: 400px) {
+    .O-logo{
+        width: 150px;
+        height: auto;
+    }
+    .title-holder {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 15px;
+        position: absolute;
+        /* bottom: 100px; */
+        margin-left: 15px;
+        /* width: 99%; */
+    }
+
+    .title-holder-text {
+        margin: auto 0;
+        text-align: center;
+        padding: 15px;
+        text-transform: uppercase;
+        font-family: "Secular One",sans-serif;
+        margin: auto;
+    }
     
-}
+    .title-holder-text p:first-child {
+        color: var(--aqua);
+        font-size: 5.8vw;
+    }
 
-}
+    .title-holder-text p:nth-child(2) {
+        color: var(--orange);
+        font-weight: bold;
+        font-size: 5.8vw;
+    }
 
+    .title-holder-text p:last-child {
+        text-align: center;
+        font-size: 5.3vw;
+        padding: 15px;
+        background-color: var(--aqua);
+        color: white;
+    }
+}
