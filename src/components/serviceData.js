@@ -59,7 +59,7 @@ export const aboutUs = [
         id: 2,
         firstName: "Kayla",
         lastName: "Oropeza",
-        title: "Owner & Founder",
+        title: "C.E.O",
         link: "https://www.linkedin.com/in/kayla-miller-070267161/",
     }
 ];
